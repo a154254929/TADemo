@@ -19,7 +19,6 @@ Shader "Unlit/Bloom"
         float4 _MainTex_TexelSize;
         sampler2D _Bloom;
         float _LuminanceThreshold;
-        float _BlurSize;
 
         fixed luminance(fixed4 color)
         {
@@ -36,12 +35,6 @@ Shader "Unlit/Bloom"
             float4 vertex : SV_POSITION;
         };
 
-        struct v2fBlur
-        {
-            float4 pos : SV_POSITION;
-            half2 uv[5] : TEXCOORD0;
-        };
-
         struct v2fBloom
         {
             float4 pos : SV_POSITION;
@@ -53,38 +46,6 @@ Shader "Unlit/Bloom"
             v2f o;
             o.vertex = UnityObjectToClipPos(v.vertex);
             o.uv = v.texcoord;
-            return o;
-        }
-
-        v2fBlur vertBlurVertical(appdata_img v)
-        {
-            v2fBlur o;
-            o.pos = UnityObjectToClipPos(v.vertex);
-
-            half2 uv = v.texcoord;
-
-            o.uv[0] = uv;
-            o.uv[1] = uv + float2(0.0, _MainTex_TexelSize.y * 1.0) * _BlurSize;
-            o.uv[2] = uv - float2(0.0, _MainTex_TexelSize.y * 1.0) * _BlurSize;
-            o.uv[3] = uv + float2(0.0, _MainTex_TexelSize.y * 2.0) * _BlurSize;
-            o.uv[4] = uv - float2(0.0, _MainTex_TexelSize.y * 2.0) * _BlurSize;
-
-            return o;
-        }
-
-        v2fBlur vertBlurHorizontal(appdata_img v)
-        {
-            v2fBlur o;
-            o.pos = UnityObjectToClipPos(v.vertex);
-
-            half2 uv = v.texcoord;
-
-            o.uv[0] = uv;
-            o.uv[1] = uv + float2(_MainTex_TexelSize.x * 1.0, 0.0) * _BlurSize;
-            o.uv[2] = uv - float2(_MainTex_TexelSize.x * 1.0, 0.0) * _BlurSize;
-            o.uv[3] = uv + float2(_MainTex_TexelSize.x * 2.0, 0.0) * _BlurSize;
-            o.uv[4] = uv - float2(_MainTex_TexelSize.x * 2.0, 0.0) * _BlurSize;
-
             return o;
         }
 
@@ -112,41 +73,14 @@ Shader "Unlit/Bloom"
             return fixed4(c.rgb * val, c.a);
         }
 
-        fixed4 fragBlur(v2fBlur i) : SV_Target
-        {
-            //float weight[3] = {0.4026, 0.2442, 0.0545};
-            //fixed4 sum = tex2D(_MainTex, i.uv[0]) * weight[0];
-
-            //for(int it = 1; it < 3; ++it)
-            //{
-            //    sum += tex2D(_MainTex, i.uv[it * 2 - 1]) * weight[it];
-            //    sum += tex2D(_MainTex, i.uv[it * 2]) * weight[it];
-            //}
-
-            //return sum;
-            float weight[3] = {0.4026, 0.2442, 0.0545};
-            fixed4 sum = tex2D(_MainTex, i.uv[0]) * weight[0];
-            float alpha = tex2D(_MainTex, i.uv[0]).a;
-
-            for(int it = 1; it < 3; ++it)
-            {
-                sum += tex2D(_MainTex, i.uv[it * 2 - 1]) * weight[it];
-                alpha = min(alpha, tex2D(_MainTex, i.uv[it * 2 - 1]).a);
-                sum += tex2D(_MainTex, i.uv[it * 2]) * weight[it];
-                alpha = min(alpha, tex2D(_MainTex, i.uv[it * 2]).a);
-            }
-
-            return fixed4(sum.rgb, alpha);
-         }
-
         fixed4 fragBloom(v2fBloom i) : SV_Target
         {
             //return tex2D(_MainTex, i.uv.xy) + tex2D(_Bloom, i.uv.zw);
             fixed4 src = tex2D(_MainTex, i.uv.xy);
             fixed4 bloom = tex2D(_Bloom, i.uv.zw);
             fixed4 des = src + bloom;
-            return mask(src, des);
-            //return des;
+            //return mask(src, des);
+            return des;
         }
         ENDCG
 
@@ -162,23 +96,9 @@ Shader "Unlit/Bloom"
             ENDCG
         }
 
-        Pass
-        {
-            Name "BloomVertical"
-            CGPROGRAM
-            #pragma vertex vertBlurVertical
-            #pragma fragment fragBlur
-            ENDCG
-        }
+        UsePass "Unlit/Blur/Blur_Vertical"
 
-        Pass
-        {
-            Name "BloomHorizontal"
-            CGPROGRAM
-            #pragma vertex vertBlurHorizontal
-            #pragma fragment fragBlur
-            ENDCG
-        }
+        UsePass "Unlit/Blur/Blur_Horizontal"
 
         Pass
         {

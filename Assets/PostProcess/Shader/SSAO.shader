@@ -76,7 +76,7 @@ Shader "Unlit/SSAO"
 			float3 randomVec = mul(_SampleKernelArray[i].xyz,TBN);
 			
 			//ao权重
-			float weight = smoothstep(0,0.2,length(randomVec.xy));
+			//float weight = smoothstep(0,0.2,length(randomVec.xy));
 			
 			//计算随机法线半球后的向量
 			float3 randomPos = viewPos + randomVec * _SampleKeneralRadius;
@@ -90,11 +90,11 @@ Shader "Unlit/SSAO"
 			DecodeDepthNormal(rcdn, randomDepth, randomNormal);
 			
 			//判断累加ao值
-			float range = abs(randomDepth - liner01Depth) > _RangeStrength ? 0.0 : 1.0;
+			float range = smoothstep(0.0, 1.0, _SampleKeneralRadius / abs(randomDepth - liner01Depth));//randomDepth - liner01Depth > _RangeStrength ? 0.0 : 1.0;
 			float selfCheck = (randomDepth + _DepthBiasValue) < liner01Depth ? 1.0 : 0.0;
 
 			//采样点的深度值和样本深度比对前后关系
-			ao += range * selfCheck * weight;
+			ao += range * selfCheck;// * weight;
 			//ao += range * weight;
 		}
 		ao = ao/sampleCount;
