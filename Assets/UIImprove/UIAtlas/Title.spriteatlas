@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Title
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d727ff6595dda6046b77a5733bd809ee, type: 3}
+    totalSpriteSurfaceArea: 0
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 22482480ae7c5e14ba65aec532ca903e, type: 3}
+  - {fileID: 21300000, guid: bf53994149821d84bae979d771476f3d, type: 3}
+  - {fileID: 21300000, guid: 6d0db3228bed08d48be1a5a2a9ee51ca, type: 3}
+  - {fileID: 21300000, guid: c19bb983cb76cbf4bb1e88f673b5c65a, type: 3}
+  - {fileID: 21300000, guid: bbac9ac4d45c6ca4f84c663f71056e6f, type: 3}
+  - {fileID: 21300000, guid: 0a0045158a1e9734bb42b604eb95e909, type: 3}
+  - {fileID: 21300000, guid: 847cbe78aad5acd4f8a0fc8eb2ee2309, type: 3}
+  - {fileID: 21300000, guid: 002671a8d3965e24f894df1be1968002, type: 3}
+  - {fileID: 21300000, guid: ef7185f8725951e49a748cc9a09e18fc, type: 3}
+  - {fileID: 21300000, guid: e7dc93b93030997449015b16c7d01767, type: 3}
+  - {fileID: 21300000, guid: 8e5589c94180dd94985b2026966bae69, type: 3}
+  - {fileID: 21300000, guid: 47a30c9a30f72be47aeb9b4eebe0e059, type: 3}
+  - {fileID: 21300000, guid: cd3d402bd69496e4f828c5b5c395a4e2, type: 3}
+  - {fileID: 21300000, guid: a1f4fc6c6a56d5d4098639a57384b6af, type: 3}
+  - {fileID: 21300000, guid: 07e7402d86f6deb44ac479a8e313a4a6, type: 3}
+  - {fileID: 21300000, guid: 85d7df1fd66bc3945963127ed7201d25, type: 3}
+  - {fileID: 21300000, guid: f0c488cf4ab2aea4088680e401b552aa, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - UI_TitleIcon_lvxingjia_small
+  - UI_TitleIcon_fengxingzhe_small
+  - UI_TitleIcon_yuezhibian_small
+  - UI_TitleIcon_yuezhibian
+  - UI_TitleIcon_manyouzhe_small
+  - UI_TitleIcon_maoxianjia_small
+  - UI_TitleIcon_lvren_small
+  - UI_TitleIcon_guangmingzhiyi_small
+  - UI_TitleIcon_ziyouzhizhi 1
+  - UI_TitleIcon_liefengzhe_small
+  - UI_TitleIcon_yingxiongshishi_small
+  - UI_TitleIcon_zhengfuzhe_small
+  - UI_TitleIcon_sihaiyouzhe_small
+  - UI_TitleIcon_ziyouzhizhi_small
+  - UI_TitleIcon_yuexiafanghua_small
+  - UI_TitleIcon_shanyizhiguang_small
+  - UI_TitleIcon_xianjingyouxia_small
+  m_RenderDataMap: {}
+  m_Tag: Title
+  m_IsVariant: 0

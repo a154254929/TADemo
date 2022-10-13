@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GUI
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 26776a693356dd247a540d4c1dc0e50d, type: 3}
+    totalSpriteSurfaceArea: 909869
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8428ba511234f0a42b13d7a9f89b64a3, type: 3}
+  - {fileID: 21300000, guid: 9f261fb13e8162344a260165a010c8f6, type: 3}
+  - {fileID: 21300000, guid: 0cbc44d16a72e4549bc28a3c5e2d11ea, type: 3}
+  - {fileID: 21300000, guid: 167bc9c214db50a449892cfcf3588302, type: 3}
+  - {fileID: 21300000, guid: 47077e03cabaf35459aae1426823a0cc, type: 3}
+  - {fileID: 21300000, guid: f8597566144d60a46b0b78b18a772755, type: 3}
+  - {fileID: 21300000, guid: b8c01617c9ae42c4e951431383c1a1f3, type: 3}
+  - {fileID: 21300000, guid: 7b81aa47a388e304a8cffa7b88140b6b, type: 3}
+  - {fileID: 21300000, guid: 3fd86ec73157cbc4bbff6e6c6c83c488, type: 3}
+  - {fileID: 21300000, guid: 7bb74348314c23341a5ad882363ca156, type: 3}
+  - {fileID: 21300000, guid: 0954b0b87e54c4845b0ab22de9c26c20, type: 3}
+  - {fileID: 21300000, guid: df2e7c5905066ac48870bff4f65f074d, type: 3}
+  - {fileID: 21300000, guid: 6eeae7d99bb508949a65a232626a7452, type: 3}
+  - {fileID: 21300000, guid: 3d745ce9985e28542b22f1c685ebdca9, type: 3}
+  - {fileID: 21300000, guid: a21457caddf63934dafc810750bfec5e, type: 3}
+  - {fileID: 21300000, guid: b8f35cfb8b460314484618d01e6493fd, type: 3}
+  - {fileID: 21300000, guid: ceef8a2c394f95e43adcf31cce04e662, type: 3}
+  - {fileID: 21300000, guid: 5c8ac10d245799e4e9c01e536bc124f2, type: 3}
+  - {fileID: 21300000, guid: 216624edfc7a0234c919c20be2eff77c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - UI_Common2_tishi
+  - UI_Common_Btn_Close_01
+  - UI_Common_new_Btn_A_b
+  - UI_Garderobe_ReactArrow
+  - UI_Common_new_Bg_Big
+  - UI_Sticker1_Icon_1_15
+  - UI_Common_new_Btn_A_a
+  - UI_Common2_zhongdianBG
+  - UI_Garderobe_Divid
+  - UI_Commom_new_Pic_xiaoyuankuang
+  - UI_Common_Bg_20Fillet_01
+  - UI_Common_Bg_Normal_17
+  - UI_Common_Icon_WenHao_01
+  - UI_Common_Bg_10Fillet_01
+  - UI_Common_Divide_Figure_03
+  - UI_Commom_new_Pic_rengwumingzidikuang
+  - UI_Commom_new_Pic_baidi
+  - UI_Statue_PadLock
+  - UI_Common_icon_shenli01
+  m_RenderDataMap: {}
+  m_Tag: GUI
+  m_IsVariant: 0
