@@ -67,7 +67,7 @@
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
-    <Compile Include="Assets\UIImprove\Script\Rotate.cs" />
+    <Compile Include="Assets\BatchTest\Script\Rotate.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
@@ -94,7 +94,7 @@
     <Compile Include="Assets\PostProcess\Script\Bloom2.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
-    <Compile Include="Assets\UIImprove\Script\ONGUI.cs" />
+    <Compile Include="Assets\BatchTest\Script\ONGUI.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
@@ -138,7 +138,7 @@
     <None Include="Assets\PostProcess\Shader\SSAO.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
-    <None Include="Assets\UIImprove\Shader\Toon_GPUInstancing.shader" />
+    <None Include="Assets\BatchTest\Shader\Toon_GPUInstancing.shader" />
     <None Include="Assets\NatureStarterKit2\info.txt" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
     <None Include="Assets\Fantasy Skybox FREE\ReleaseNotes.txt" />
@@ -220,7 +220,7 @@
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
     <None Include="Assets\TA100\3.1StencilTestAndZTest\Shader\ToonWater\ToonLit.shader" />
-    <None Include="Assets\UIImprove\Shader\Toon.shader" />
+    <None Include="Assets\BatchTest\Shader\Toon.shader" />
     <None Include="Assets\metalWear\Shader\OutLine.shader" />
     <None Include="Assets\metalWear\Shader\MetalNoiseTexSpeculate.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
