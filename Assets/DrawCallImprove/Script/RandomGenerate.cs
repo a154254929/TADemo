@@ -121,13 +121,10 @@ namespace FSG.MeshAnimator
                     Debug.Log(animationIndex);
                     g.GetComponent<Animator>().SetInteger("Anim", animationIndex);
                 }
-                else if (g.GetComponent<MeshAnimatorBase>())
+                else if (g.GetComponent<GPUSkinningAsset>())
                 {
-                    MeshAnimatorBase ma = g.GetComponent<MeshAnimatorBase>();
+                    GPUSkinningAsset ma = g.GetComponent<GPUSkinningAsset>();
                     int animationIndex = Random.Range(0, meshAnimationNames.Length);
-                    ma.defaultAnimation = ma.animations[animationIndex];
-                    ma.Play(animationIndex);
-                    ma.SetTimeNormalized(Random.value, true);
                 }
                 listObj.Add(g);
             }

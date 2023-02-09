@@ -56,20 +56,27 @@
     <Compile Include="Assets\PostProcess\Script\PostEffectBase.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
     <Compile Include="Assets\PostProcess\Script\Bloom.cs" />
+    <Compile Include="Assets\GPUSkinning\Bone\GPUSkinningBoneGenerator.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+    <Compile Include="Assets\GPUSkinning\Vertex\GPUSkinningSetter.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\UIImprove\Script\Rotate.cs" />
     <Compile Include="Assets\PostProcess\Script\DOF.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+    <Compile Include="Assets\GPUSkinning\Bone\GPUSkinningBoneSetter.cs" />
+    <Compile Include="Assets\GPUSkinning\AnimatorCtrl.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\GPUSkinning\Vertex\GPUSkinningGenerator.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
-    <Compile Include="Assets\BatchTest\Script\Rotate.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\UIImprove\Script\ONGUI.cs" />
+    <Compile Include="Assets\GPUSkinning\Vertex\GPUSkinningAsset.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
@@ -79,6 +86,7 @@
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+    <Compile Include="Assets\DrawCallImprove\Script\RandomGenerate.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
     <Compile Include="Assets\TA100\3.1StencilTestAndZTest\Script\CameraDepthTextureMode.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
@@ -86,15 +94,16 @@
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
     <Compile Include="Assets\PostProcess\Script\ScreenSpaceAOEffect.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\GPUSkinning\Bone\GPUSkinningAsset_Bone.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+    <Compile Include="Assets\DrawCallImprove\Script\Vertices.cs" />
     <Compile Include="Assets\PostProcess\Script\SSAO.cs" />
     <Compile Include="Assets\PostProcess\Script\Bloom2.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
-    <Compile Include="Assets\BatchTest\Script\ONGUI.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
@@ -103,6 +112,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\GPUSkinning\Vertex\Shader\GPUSkinning.shader" />
     <None Include="Assets\TA100\3.3TESS&amp;GS\Shaders\Grass.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
@@ -131,6 +141,7 @@
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\ch0200\Skin\Skin.shader" />
+    <None Include="Assets\DrawCallImprove\Shader\MeshAnimator.shader" />
     <None Include="Assets\TA100\3.1StencilTestAndZTest\Shader\ToonWater\UnlitShadowCaster.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
     <None Include="Assets\PostProcess\Shader\Sky.shader" />
@@ -138,7 +149,6 @@
     <None Include="Assets\PostProcess\Shader\SSAO.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
-    <None Include="Assets\BatchTest\Shader\Toon_GPUInstancing.shader" />
     <None Include="Assets\NatureStarterKit2\info.txt" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
     <None Include="Assets\Fantasy Skybox FREE\ReleaseNotes.txt" />
@@ -158,6 +168,7 @@
     <None Include="Assets\Metal\Shader\CartoonMetal03.shader" />
     <None Include="Assets\ch0200\Line\Line.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\UIImprove\Shader\Toon.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
@@ -174,6 +185,7 @@
     <None Include="Assets\ch0200\Body\Body.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\GPUSkinning\Bone\Shader\GpuSkinningBone.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
     <None Include="Assets\ch0200\Eye\Eye.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
@@ -195,6 +207,7 @@
     <None Include="Assets\Metal\Shader\CartoonMetal01.shader" />
     <None Include="Assets\metalWear\Shader\EnvMetalWithWearOrSpeculate.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\UIImprove\Shader\Toon_GPUInstancing.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
     <None Include="Assets\TA100\2.8flowmap\Flow.shader" />
@@ -220,7 +233,6 @@
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
     <None Include="Assets\TA100\3.1StencilTestAndZTest\Shader\ToonWater\ToonLit.shader" />
-    <None Include="Assets\BatchTest\Shader\Toon.shader" />
     <None Include="Assets\metalWear\Shader\OutLine.shader" />
     <None Include="Assets\metalWear\Shader\MetalNoiseTexSpeculate.shader" />
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />

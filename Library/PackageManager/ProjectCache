@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637999650423941719
-    m_Hash: 57822613
+      ticks: 638115109330734217
+    m_Hash: 2228690193
   m_LockFileStatus:
     m_FilePath: F:/TADemo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637999650424101292
-    m_Hash: 1147995324
+      ticks: 638115109330744190
+    m_Hash: 1663210320
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -85,7 +85,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Editor
-      type: 
+      type: asset
       description: The Version Control package gives you the ability to use either
         Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
         SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
@@ -144,6 +144,8 @@ m_PackageAssets:
         - 1.17.0
         - 1.17.1
         - 1.17.2
+        - 1.17.6
+        - 1.17.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -151,6 +153,7 @@ m_PackageAssets:
         - 2.0.0-preview.20
         - 2.0.0-preview.21
         - 2.0.0-preview.22
+        - 2.0.0
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
@@ -185,6 +188,8 @@ m_PackageAssets:
         - 1.17.0
         - 1.17.1
         - 1.17.2
+        - 1.17.6
+        - 1.17.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -192,6 +197,7 @@ m_PackageAssets:
         - 2.0.0-preview.20
         - 2.0.0-preview.21
         - 2.0.0-preview.22
+        - 2.0.0
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
@@ -230,7 +236,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -256,7 +262,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: The JetBrains Rider Editor package provides an integration for
         using the JetBrains Rider IDE as a code editor for Unity. It adds support
         for generating .csproj files for code completion and auto-discovery of installations.
@@ -295,6 +301,9 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
+        - 3.0.16
+        - 3.0.17
+        - 3.0.18
         compatible:
         - 1.0.2
         - 1.0.6
@@ -327,6 +336,9 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
+        - 3.0.16
+        - 3.0.17
+        - 3.0.18
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -349,7 +361,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -375,7 +387,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Code editor integration for supporting Visual Studio as code editor
         for unity. Adds support for generating csproj files for intellisense purposes,
         auto discovery of installations, etc.
@@ -402,6 +414,7 @@ m_PackageAssets:
         - 2.0.14
         - 2.0.15
         - 2.0.16
+        - 2.0.17
         compatible:
         - 1.0.2
         - 1.0.3
@@ -422,7 +435,8 @@ m_PackageAssets:
         - 2.0.14
         - 2.0.15
         - 2.0.16
-        verified: 2.0.16
+        - 2.0.17
+        verified: 2.0.17
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -444,7 +458,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -470,7 +484,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Code editor integration for supporting Visual Studio Code as code
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
@@ -517,7 +531,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -543,7 +557,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: The post-processing stack (v2) comes with a collection of effects
         and image filters you can apply to your cameras to improve the visuals of
         your games.
@@ -612,7 +626,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -638,7 +652,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Unity Test Framework
-      type: 
+      type: asset
       description: Test framework for running Edit mode and Play mode tests in Unity.
       status: 4
       errors: []
@@ -678,7 +692,11 @@ m_PackageAssets:
         - 1.1.30
         - 1.1.31
         - 1.1.33
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
         - 2.0.1-exp.1
+        - 2.0.1-exp.2
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         compatible:
@@ -687,7 +705,11 @@ m_PackageAssets:
         - 1.1.30
         - 1.1.31
         - 1.1.33
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
         - 2.0.1-exp.1
+        - 2.0.1-exp.2
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         verified: 1.1.33
@@ -716,7 +738,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -742,7 +764,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Text Rendering
-      type: 
+      type: asset
       description: 'TextMeshPro is the ultimate text solution for Unity. It''s the
         perfect replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -851,12 +873,14 @@ m_PackageAssets:
         - 3.2.0-pre.1
         - 3.2.0-pre.2
         - 3.2.0-pre.3
+        - 3.2.0-pre.4
         - 4.0.0-pre.1
         compatible:
         - 3.0.6
         - 3.2.0-pre.1
         - 3.2.0-pre.2
         - 3.2.0-pre.3
+        - 3.2.0-pre.4
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -882,7 +906,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -908,7 +932,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Use Unity Timeline to create cinematic content, game-play sequences,
         audio sequences, and complex particle effects.
       status: 4
@@ -987,6 +1011,8 @@ m_PackageAssets:
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
+        - 1.7.2
+        - 1.8.0
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -1015,6 +1041,8 @@ m_PackageAssets:
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
+        - 1.7.2
+        - 1.8.0
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -1048,7 +1076,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -2879,7 +2907,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Libraries
-      type: 
+      type: asset
       description: Custom version of the nunit package build to work with Unity.
         Used by the Unity Test Framework.
       status: 4
@@ -2918,7 +2946,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -2944,7 +2972,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: library
       description: 'Newtonsoft Json for use in Unity projects and Unity packages.
         Currently synced to version 12.0.2.
 
@@ -3024,7 +3052,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: 'This package defines common components used by multiple Game
         Service packages.
 
@@ -3049,6 +3077,9 @@ m_PackageAssets:
         - 1.4.1
         - 1.4.2
         - 1.4.3
+        - 1.5.2
+        - 1.6.0
+        - 1.7.0
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3065,6 +3096,9 @@ m_PackageAssets:
         - 1.4.1
         - 1.4.2
         - 1.4.3
+        - 1.5.2
+        - 1.6.0
+        - 1.7.0
         verified: 
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -3081,7 +3115,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0

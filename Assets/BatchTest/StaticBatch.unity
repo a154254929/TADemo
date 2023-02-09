@@ -2597,7 +2597,7 @@ PrefabInstance:
     - target: {fileID: 2222111361402594220, guid: 88f2fd29f58b9734683512546acec310, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b466cd44d045a6b47ba3a29ff7838109, type: 2}
+      objectReference: {fileID: 2100000, guid: 93caadf4359ae8143aad35b3145d31af, type: 2}
     - target: {fileID: 2222111361404534124, guid: 88f2fd29f58b9734683512546acec310, type: 3}
       propertyPath: m_Name
       value: Tree_01 (3)
@@ -17086,9 +17086,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f60e74791319748b9c27b66d3a2214, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotateSpeedX: 0
-  RotateSpeedY: 40
-  RotateSpeedZ: 0
 --- !u!1 &1719455157
 GameObject:
   m_ObjectHideFlags: 0
@@ -17423,7 +17420,7 @@ PrefabInstance:
     - target: {fileID: 2222111361402594220, guid: 88f2fd29f58b9734683512546acec310, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b466cd44d045a6b47ba3a29ff7838109, type: 2}
+      objectReference: {fileID: 2100000, guid: 93caadf4359ae8143aad35b3145d31af, type: 2}
     - target: {fileID: 2222111361404534124, guid: 88f2fd29f58b9734683512546acec310, type: 3}
       propertyPath: m_Name
       value: Tree_01
@@ -18067,12 +18064,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1774033395}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71f60e74791319748b9c27b66d3a2214, type: 3}
+  m_Script: {fileID: 11500000, guid: 34373b060819eeb4a8776203b1bdcdce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   RotateSpeedX: 0
   RotateSpeedY: 0
-  RotateSpeedZ: 50
+  RotateSpeedZ: 0
 --- !u!1 &1774919997
 GameObject:
   m_ObjectHideFlags: 0
@@ -18326,7 +18323,7 @@ PrefabInstance:
     - target: {fileID: 2222111361402594220, guid: 88f2fd29f58b9734683512546acec310, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b466cd44d045a6b47ba3a29ff7838109, type: 2}
+      objectReference: {fileID: 2100000, guid: 93caadf4359ae8143aad35b3145d31af, type: 2}
     - target: {fileID: 2222111361404534124, guid: 88f2fd29f58b9734683512546acec310, type: 3}
       propertyPath: m_Name
       value: Tree_01 (2)
@@ -18877,7 +18874,7 @@ PrefabInstance:
     - target: {fileID: 2222111361402594220, guid: 88f2fd29f58b9734683512546acec310, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b466cd44d045a6b47ba3a29ff7838109, type: 2}
+      objectReference: {fileID: 2100000, guid: 93caadf4359ae8143aad35b3145d31af, type: 2}
     - target: {fileID: 2222111361404534124, guid: 88f2fd29f58b9734683512546acec310, type: 3}
       propertyPath: m_Name
       value: Tree_01 (1)
