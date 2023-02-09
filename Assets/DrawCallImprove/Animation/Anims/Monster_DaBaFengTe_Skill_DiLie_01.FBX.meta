@@ -1,0 +1,1061 @@
+fileFormatVersion: 2
+guid: a2449e8deb7b1024ca0b86c87de761af
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip001
+  - first:
+      1: 100002
+    second: Bip001 Head
+  - first:
+      1: 100004
+    second: Bip001 L Calf
+  - first:
+      1: 100006
+    second: Bip001 L Clavicle
+  - first:
+      1: 100008
+    second: Bip001 L Finger0
+  - first:
+      1: 100010
+    second: Bip001 L Finger01
+  - first:
+      1: 100012
+    second: Bip001 L Finger1
+  - first:
+      1: 100014
+    second: Bip001 L Finger11
+  - first:
+      1: 100016
+    second: Bip001 L Finger2
+  - first:
+      1: 100018
+    second: Bip001 L Finger21
+  - first:
+      1: 100020
+    second: Bip001 L Finger3
+  - first:
+      1: 100022
+    second: Bip001 L Finger31
+  - first:
+      1: 100024
+    second: Bip001 L Foot
+  - first:
+      1: 100026
+    second: Bip001 L Forearm
+  - first:
+      1: 100028
+    second: Bip001 L Hand
+  - first:
+      1: 100030
+    second: Bip001 L HorseLink
+  - first:
+      1: 100032
+    second: Bip001 L Thigh
+  - first:
+      1: 100034
+    second: Bip001 L Toe0
+  - first:
+      1: 100036
+    second: Bip001 L UpperArm
+  - first:
+      1: 100038
+    second: Bip001 Neck
+  - first:
+      1: 100040
+    second: Bip001 Pelvis
+  - first:
+      1: 100042
+    second: Bip001 Prop1
+  - first:
+      1: 100044
+    second: Bip001 R Calf
+  - first:
+      1: 100046
+    second: Bip001 R Clavicle
+  - first:
+      1: 100048
+    second: Bip001 R Finger0
+  - first:
+      1: 100050
+    second: Bip001 R Finger01
+  - first:
+      1: 100052
+    second: Bip001 R Finger1
+  - first:
+      1: 100054
+    second: Bip001 R Finger11
+  - first:
+      1: 100056
+    second: Bip001 R Finger2
+  - first:
+      1: 100058
+    second: Bip001 R Finger21
+  - first:
+      1: 100060
+    second: Bip001 R Finger3
+  - first:
+      1: 100062
+    second: Bip001 R Finger31
+  - first:
+      1: 100064
+    second: Bip001 R Foot
+  - first:
+      1: 100066
+    second: Bip001 R Forearm
+  - first:
+      1: 100068
+    second: Bip001 R Hand
+  - first:
+      1: 100070
+    second: Bip001 R HorseLink
+  - first:
+      1: 100072
+    second: Bip001 R Thigh
+  - first:
+      1: 100074
+    second: Bip001 R Toe0
+  - first:
+      1: 100076
+    second: Bip001 R UpperArm
+  - first:
+      1: 100078
+    second: Bip001 Spine
+  - first:
+      1: 100080
+    second: Bip001 Spine1
+  - first:
+      1: 100082
+    second: Bone00
+  - first:
+      1: 100084
+    second: Bone01
+  - first:
+      1: 100086
+    second: Bone02
+  - first:
+      1: 100088
+    second: Bone021
+  - first:
+      1: 100090
+    second: Bone023
+  - first:
+      1: 100092
+    second: Bone025
+  - first:
+      1: 100094
+    second: Bone026
+  - first:
+      1: 100096
+    second: Bone029
+  - first:
+      1: 100098
+    second: Bone03
+  - first:
+      1: 100100
+    second: Bone04
+  - first:
+      1: 100102
+    second: Bone06
+  - first:
+      1: 100104
+    second: Bone08
+  - first:
+      1: 100106
+    second: Bone09
+  - first:
+      1: 100108
+    second: Bone10
+  - first:
+      1: 100110
+    second: Bone11
+  - first:
+      1: 100112
+    second: Bone13
+  - first:
+      1: 100114
+    second: Bone14
+  - first:
+      1: 100116
+    second: Bone16
+  - first:
+      1: 100118
+    second: Bone17
+  - first:
+      1: 100120
+    second: Bone19
+  - first:
+      1: 100122
+    second: //RootNode
+  - first:
+      1: 100124
+    second: Bone05
+  - first:
+      1: 100126
+    second: Bone101
+  - first:
+      1: 100128
+    second: Bone102
+  - first:
+      1: 100130
+    second: Bone103
+  - first:
+      1: 100132
+    second: Bone104
+  - first:
+      1: 100134
+    second: Bone106
+  - first:
+      1: 100136
+    second: Bone107
+  - first:
+      1: 100138
+    second: Bone109
+  - first:
+      1: 100140
+    second: Bone110
+  - first:
+      1: 100142
+    second: Bone112
+  - first:
+      1: 100144
+    second: Bone113
+  - first:
+      1: 100146
+    second: Bone115
+  - first:
+      1: 100148
+    second: Bone116
+  - first:
+      1: 100150
+    second: Bone120
+  - first:
+      1: 100152
+    second: Bone121
+  - first:
+      1: 100154
+    second: Bone122
+  - first:
+      1: 100156
+    second: Bone124
+  - first:
+      1: 100158
+    second: Bone126
+  - first:
+      1: 100160
+    second: Bone127
+  - first:
+      1: 100162
+    second: Bone129
+  - first:
+      1: 100164
+    second: Bone152
+  - first:
+      1: 100166
+    second: Bone154
+  - first:
+      1: 100168
+    second: Bone155
+  - first:
+      1: 100170
+    second: Bone157
+  - first:
+      1: 100172
+    second: Bone158
+  - first:
+      1: 100174
+    second: Bone159
+  - first:
+      1: 100176
+    second: Bone161
+  - first:
+      1: 100178
+    second: Bone162
+  - first:
+      1: 100180
+    second: Bone163
+  - first:
+      1: 100182
+    second: Bone164
+  - first:
+      1: 100184
+    second: Bone165
+  - first:
+      1: 100186
+    second: Bone20
+  - first:
+      1: 100188
+    second: Bone22
+  - first:
+      1: 100190
+    second: Bone23
+  - first:
+      1: 100192
+    second: Bone24
+  - first:
+      1: 100194
+    second: Bone26
+  - first:
+      1: 100196
+    second: Bone27
+  - first:
+      1: 100198
+    second: Bone28
+  - first:
+      1: 100200
+    second: Bone30
+  - first:
+      1: 100202
+    second: Bone31
+  - first:
+      1: 100204
+    second: Bone32
+  - first:
+      1: 100206
+    second: Bone33
+  - first:
+      1: 100208
+    second: Bone34
+  - first:
+      1: 100210
+    second: Bone35
+  - first:
+      1: 100212
+    second: Bone37
+  - first:
+      1: 100214
+    second: Bone38
+  - first:
+      1: 100216
+    second: Bone39
+  - first:
+      1: 100218
+    second: Bone40
+  - first:
+      1: 100220
+    second: Bone41
+  - first:
+      1: 100222
+    second: Bone42
+  - first:
+      1: 100224
+    second: Bone44
+  - first:
+      1: 100226
+    second: Bone45
+  - first:
+      1: 100228
+    second: Bone46
+  - first:
+      1: 100230
+    second: Bone48
+  - first:
+      1: 100232
+    second: Bone49
+  - first:
+      1: 100234
+    second: Bone50
+  - first:
+      1: 100236
+    second: Bone51
+  - first:
+      1: 100238
+    second: Bone52
+  - first:
+      1: 100240
+    second: Bone54
+  - first:
+      1: 100242
+    second: Bone55
+  - first:
+      1: 100244
+    second: Bone56
+  - first:
+      1: 100246
+    second: Bone58
+  - first:
+      1: 100248
+    second: Bone60
+  - first:
+      1: 100250
+    second: Bone62
+  - first:
+      1: 100252
+    second: Bone63
+  - first:
+      1: 100254
+    second: Bone64
+  - first:
+      1: 100256
+    second: Bone65
+  - first:
+      1: 100258
+    second: Bone67
+  - first:
+      1: 100260
+    second: Bone68
+  - first:
+      1: 100262
+    second: Bone70
+  - first:
+      1: 100264
+    second: Bone71
+  - first:
+      1: 100266
+    second: Bone72
+  - first:
+      1: 100268
+    second: Bone73
+  - first:
+      1: 100270
+    second: Bone75
+  - first:
+      1: 100272
+    second: Bone76
+  - first:
+      1: 100274
+    second: Bone77
+  - first:
+      1: 100276
+    second: Bone79
+  - first:
+      1: 100278
+    second: Bone80
+  - first:
+      1: 100280
+    second: Bone81
+  - first:
+      1: 100282
+    second: Bone82
+  - first:
+      1: 100284
+    second: Bone83
+  - first:
+      1: 100286
+    second: Bone85
+  - first:
+      1: 100288
+    second: Bone86
+  - first:
+      1: 100290
+    second: Bone88
+  - first:
+      1: 100292
+    second: Bone89
+  - first:
+      1: 100294
+    second: Bone91
+  - first:
+      1: 100296
+    second: Bone92
+  - first:
+      1: 100298
+    second: Bone94
+  - first:
+      1: 100300
+    second: Bone95
+  - first:
+      1: 100302
+    second: Bone96
+  - first:
+      1: 100304
+    second: Bone98
+  - first:
+      1: 100306
+    second: Bone99
+  - first:
+      4: 400000
+    second: Bip001
+  - first:
+      4: 400002
+    second: Bip001 Head
+  - first:
+      4: 400004
+    second: Bip001 L Calf
+  - first:
+      4: 400006
+    second: Bip001 L Clavicle
+  - first:
+      4: 400008
+    second: Bip001 L Finger0
+  - first:
+      4: 400010
+    second: Bip001 L Finger01
+  - first:
+      4: 400012
+    second: Bip001 L Finger1
+  - first:
+      4: 400014
+    second: Bip001 L Finger11
+  - first:
+      4: 400016
+    second: Bip001 L Finger2
+  - first:
+      4: 400018
+    second: Bip001 L Finger21
+  - first:
+      4: 400020
+    second: Bip001 L Finger3
+  - first:
+      4: 400022
+    second: Bip001 L Finger31
+  - first:
+      4: 400024
+    second: Bip001 L Foot
+  - first:
+      4: 400026
+    second: Bip001 L Forearm
+  - first:
+      4: 400028
+    second: Bip001 L Hand
+  - first:
+      4: 400030
+    second: Bip001 L HorseLink
+  - first:
+      4: 400032
+    second: Bip001 L Thigh
+  - first:
+      4: 400034
+    second: Bip001 L Toe0
+  - first:
+      4: 400036
+    second: Bip001 L UpperArm
+  - first:
+      4: 400038
+    second: Bip001 Neck
+  - first:
+      4: 400040
+    second: Bip001 Pelvis
+  - first:
+      4: 400042
+    second: Bip001 Prop1
+  - first:
+      4: 400044
+    second: Bip001 R Calf
+  - first:
+      4: 400046
+    second: Bip001 R Clavicle
+  - first:
+      4: 400048
+    second: Bip001 R Finger0
+  - first:
+      4: 400050
+    second: Bip001 R Finger01
+  - first:
+      4: 400052
+    second: Bip001 R Finger1
+  - first:
+      4: 400054
+    second: Bip001 R Finger11
+  - first:
+      4: 400056
+    second: Bip001 R Finger2
+  - first:
+      4: 400058
+    second: Bip001 R Finger21
+  - first:
+      4: 400060
+    second: Bip001 R Finger3
+  - first:
+      4: 400062
+    second: Bip001 R Finger31
+  - first:
+      4: 400064
+    second: Bip001 R Foot
+  - first:
+      4: 400066
+    second: Bip001 R Forearm
+  - first:
+      4: 400068
+    second: Bip001 R Hand
+  - first:
+      4: 400070
+    second: Bip001 R HorseLink
+  - first:
+      4: 400072
+    second: Bip001 R Thigh
+  - first:
+      4: 400074
+    second: Bip001 R Toe0
+  - first:
+      4: 400076
+    second: Bip001 R UpperArm
+  - first:
+      4: 400078
+    second: Bip001 Spine
+  - first:
+      4: 400080
+    second: Bip001 Spine1
+  - first:
+      4: 400082
+    second: Bone00
+  - first:
+      4: 400084
+    second: Bone01
+  - first:
+      4: 400086
+    second: Bone02
+  - first:
+      4: 400088
+    second: Bone021
+  - first:
+      4: 400090
+    second: Bone023
+  - first:
+      4: 400092
+    second: Bone025
+  - first:
+      4: 400094
+    second: Bone026
+  - first:
+      4: 400096
+    second: Bone029
+  - first:
+      4: 400098
+    second: Bone03
+  - first:
+      4: 400100
+    second: Bone04
+  - first:
+      4: 400102
+    second: Bone06
+  - first:
+      4: 400104
+    second: Bone08
+  - first:
+      4: 400106
+    second: Bone09
+  - first:
+      4: 400108
+    second: Bone10
+  - first:
+      4: 400110
+    second: Bone11
+  - first:
+      4: 400112
+    second: Bone13
+  - first:
+      4: 400114
+    second: Bone14
+  - first:
+      4: 400116
+    second: Bone16
+  - first:
+      4: 400118
+    second: Bone17
+  - first:
+      4: 400120
+    second: Bone19
+  - first:
+      4: 400122
+    second: //RootNode
+  - first:
+      4: 400124
+    second: Bone05
+  - first:
+      4: 400126
+    second: Bone101
+  - first:
+      4: 400128
+    second: Bone102
+  - first:
+      4: 400130
+    second: Bone103
+  - first:
+      4: 400132
+    second: Bone104
+  - first:
+      4: 400134
+    second: Bone106
+  - first:
+      4: 400136
+    second: Bone107
+  - first:
+      4: 400138
+    second: Bone109
+  - first:
+      4: 400140
+    second: Bone110
+  - first:
+      4: 400142
+    second: Bone112
+  - first:
+      4: 400144
+    second: Bone113
+  - first:
+      4: 400146
+    second: Bone115
+  - first:
+      4: 400148
+    second: Bone116
+  - first:
+      4: 400150
+    second: Bone120
+  - first:
+      4: 400152
+    second: Bone121
+  - first:
+      4: 400154
+    second: Bone122
+  - first:
+      4: 400156
+    second: Bone124
+  - first:
+      4: 400158
+    second: Bone126
+  - first:
+      4: 400160
+    second: Bone127
+  - first:
+      4: 400162
+    second: Bone129
+  - first:
+      4: 400164
+    second: Bone152
+  - first:
+      4: 400166
+    second: Bone154
+  - first:
+      4: 400168
+    second: Bone155
+  - first:
+      4: 400170
+    second: Bone157
+  - first:
+      4: 400172
+    second: Bone158
+  - first:
+      4: 400174
+    second: Bone159
+  - first:
+      4: 400176
+    second: Bone161
+  - first:
+      4: 400178
+    second: Bone162
+  - first:
+      4: 400180
+    second: Bone163
+  - first:
+      4: 400182
+    second: Bone164
+  - first:
+      4: 400184
+    second: Bone165
+  - first:
+      4: 400186
+    second: Bone20
+  - first:
+      4: 400188
+    second: Bone22
+  - first:
+      4: 400190
+    second: Bone23
+  - first:
+      4: 400192
+    second: Bone24
+  - first:
+      4: 400194
+    second: Bone26
+  - first:
+      4: 400196
+    second: Bone27
+  - first:
+      4: 400198
+    second: Bone28
+  - first:
+      4: 400200
+    second: Bone30
+  - first:
+      4: 400202
+    second: Bone31
+  - first:
+      4: 400204
+    second: Bone32
+  - first:
+      4: 400206
+    second: Bone33
+  - first:
+      4: 400208
+    second: Bone34
+  - first:
+      4: 400210
+    second: Bone35
+  - first:
+      4: 400212
+    second: Bone37
+  - first:
+      4: 400214
+    second: Bone38
+  - first:
+      4: 400216
+    second: Bone39
+  - first:
+      4: 400218
+    second: Bone40
+  - first:
+      4: 400220
+    second: Bone41
+  - first:
+      4: 400222
+    second: Bone42
+  - first:
+      4: 400224
+    second: Bone44
+  - first:
+      4: 400226
+    second: Bone45
+  - first:
+      4: 400228
+    second: Bone46
+  - first:
+      4: 400230
+    second: Bone48
+  - first:
+      4: 400232
+    second: Bone49
+  - first:
+      4: 400234
+    second: Bone50
+  - first:
+      4: 400236
+    second: Bone51
+  - first:
+      4: 400238
+    second: Bone52
+  - first:
+      4: 400240
+    second: Bone54
+  - first:
+      4: 400242
+    second: Bone55
+  - first:
+      4: 400244
+    second: Bone56
+  - first:
+      4: 400246
+    second: Bone58
+  - first:
+      4: 400248
+    second: Bone60
+  - first:
+      4: 400250
+    second: Bone62
+  - first:
+      4: 400252
+    second: Bone63
+  - first:
+      4: 400254
+    second: Bone64
+  - first:
+      4: 400256
+    second: Bone65
+  - first:
+      4: 400258
+    second: Bone67
+  - first:
+      4: 400260
+    second: Bone68
+  - first:
+      4: 400262
+    second: Bone70
+  - first:
+      4: 400264
+    second: Bone71
+  - first:
+      4: 400266
+    second: Bone72
+  - first:
+      4: 400268
+    second: Bone73
+  - first:
+      4: 400270
+    second: Bone75
+  - first:
+      4: 400272
+    second: Bone76
+  - first:
+      4: 400274
+    second: Bone77
+  - first:
+      4: 400276
+    second: Bone79
+  - first:
+      4: 400278
+    second: Bone80
+  - first:
+      4: 400280
+    second: Bone81
+  - first:
+      4: 400282
+    second: Bone82
+  - first:
+      4: 400284
+    second: Bone83
+  - first:
+      4: 400286
+    second: Bone85
+  - first:
+      4: 400288
+    second: Bone86
+  - first:
+      4: 400290
+    second: Bone88
+  - first:
+      4: 400292
+    second: Bone89
+  - first:
+      4: 400294
+    second: Bone91
+  - first:
+      4: 400296
+    second: Bone92
+  - first:
+      4: 400298
+    second: Bone94
+  - first:
+      4: 400300
+    second: Bone95
+  - first:
+      4: 400302
+    second: Bone96
+  - first:
+      4: 400304
+    second: Bone98
+  - first:
+      4: 400306
+    second: Bone99
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 2
+    tangentImportMode: 2
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 2
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 06061f260d8fc8044812034ce281a864, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
