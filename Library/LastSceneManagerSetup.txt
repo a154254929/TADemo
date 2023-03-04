@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/UIImprove/improved.unity
+- path: Assets/Taceg/Depth/Depth.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
